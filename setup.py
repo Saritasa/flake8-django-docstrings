@@ -5,20 +5,19 @@ with open('README.md', 'r') as read_me_file:
 
 setuptools.setup(
     name='flake8-django-docstrings',
-    version='0.0.1',
+    version='0.1.0',
     description='Flake 8 plugin that checks docstrings for Django models',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Saritasa',
-    author_email='example@example.com',
-    url='url',
+    author_email='info@saritasa.com',
+    url='https://github.com/Saritasa/flake8-django-docstrings',
     packages=[
         'flake8_plugin',
     ],
     python_requires='>=3.5',
     install_requires=[
         'flake8',
-        'packaging'
     ],
     tests_require=[
         'pytest',
@@ -34,6 +33,7 @@ setuptools.setup(
         'Framework :: Flake8',
         'Environment :: Console',
         'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
