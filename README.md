@@ -1,3 +1,5 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Saritasa/flake8-django-docstrings/Test%20package?style=for-the-badge)
+
 # Flake 8 plugin that checks docstrings for Django models
 
 It will show code style errors in this cases:
